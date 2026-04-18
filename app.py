@@ -32,7 +32,7 @@ if "image_path" not in st.session_state:
     st.session_state.label = label
     st.session_state.answered = False
 
-st.title("🐶🐱 Cat or Dog Quiz")
+st.title("Cat or Dog Quiz")
 
 image = Image.open(st.session_state.image_path).convert("RGB")
 st.image(image, use_column_width=True)
